@@ -13,7 +13,7 @@ setup(name='rdpy',
 	""",
 	author='Sylvain Peyrefitte',
 	author_email='citronneur@gmail.com',
-	url='https://github.com/citronneur/rdpy',
+	url='https://github.com/trixam/rdpy',
 	packages=[
 			'rdpy', 
 			'rdpy.core',
@@ -38,10 +38,10 @@ setup(name='rdpy',
 		],
 	install_requires=[
 			'twisted',
-          	'pyopenssl',
-          	'service_identity',
-          	'qt4reactor',
-          	'rsa',
-          	'pyasn1'
-	  	],
+          		'pyopenssl',
+          		'service_identity',
+          		'qt4reactor',
+          		'rsa',
+          		'pyasn1'
+	  		]
 )
